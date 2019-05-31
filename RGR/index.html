@@ -19,7 +19,7 @@
                     <h2>QUALITY <br> <span>типография</span> </h2>
                 </div>
                 <div class="col-sm-9 btn_1 animated slideInRight">
-                    <a href="#" class="spec_hyper">Скачать прайс-лист</a>
+                    <a href="price_list.xlsx" rel="external" class="spec_hyper">Скачать прайс-лист</a>
                     <a href="#">Заказать макет</a>
                     <a href="#">Заказать визитки</a>
                 </div>
@@ -202,6 +202,17 @@
                 }
             })
         })
+    </script>
+    <script>
+         function externalLinks() {
+          links = document.getElementsByTagName("a");
+          for (i=0; i<links.length; i++) {
+            link = links[i];
+            if (link.getAttribute("href") && link.getAttribute("rel") == "external")
+            link.target = "_blank";
+          }
+         }
+         window.onload = externalLinks;
     </script>
   </body>
 </html>
