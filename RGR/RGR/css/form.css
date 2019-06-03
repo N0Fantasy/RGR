@@ -1,0 +1,61 @@
+.modal-header {
+  background-color: #5d3954;
+  text-align: center;
+}
+
+.modal-header h4 {
+  color: #fff;
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 15.92px;
+  letter-spacing: 2.4px;
+}
+
+.modal-header button {
+  text-align: right;
+}
+
+.modal-header span {
+  color: #fff;
+  font-size: 20px;
+}
+
+.modal-footer {
+  background-color: #5d3954;
+  text-align: center;
+}
+
+.modal-footer .sub_button {
+  padding: 10px 10px;
+  text-decoration: none;
+  border: 1px solid #fff;
+  background-color: #5d3954;
+  color: #fff;
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 15.92px;
+  letter-spacing: 2.4px;
+}
+
+.modal-footer .sub_button:hover {
+  -webkit-box-shadow: 0 0 20px rgba(255, 255, 255, 0.9) inset;
+          box-shadow: 0 0 20px rgba(255, 255, 255, 0.9) inset;
+}
+
+.modal-content {
+  border: 1px solid #fff;
+  border-radius: 0px;
+}
+
+.modal-content label {
+  text-align: center;
+  color: #000000;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 15.92px;
+  letter-spacing: 2.4px;
+}
+/*# sourceMappingURL=form.css.map */
